@@ -30,12 +30,30 @@ body
     justify-content: center;
     align-items: center;
 
+
+}
+
+.heading
+{
+     display: flex;
+     margin: 10px;
+     
+}
+
+#app
+{
+    height: 80px;
+    width: 80px;
+   
+   
 }
 #showcase h1
 {
+   
     font-size: 4em;
-    margin: 20px;
+    padding: 10px;
 }
+
 .search-box-wrapper
 {
     display: inline-flex;
