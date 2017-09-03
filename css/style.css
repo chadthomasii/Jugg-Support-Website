@@ -1,0 +1,73 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+    
+}
+
+body
+{
+    margin: 0;
+    font-family: sans-serif;
+    color: #fff;
+    
+}
+
+#showcase
+{
+    background-image: url('../img/party.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.8);
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#showcase h1
+{
+    font-size: 4em;
+    margin: 20px;
+}
+.search-box-wrapper
+{
+    display: inline-flex;
+    font-size: 50px;
+    
+}
+
+.search-box-input
+{
+    color: #fff;
+    background-color: inherit;
+    font-size: inherit;
+    border: 0.12em solid #8e44ad;
+    border-radius: 0.5em 0 0 0.5em;
+    padding: 0.2em 0.5em;
+    outline: 0;
+    
+}
+
+.search-box-button
+{
+    color: #fff;
+    background-color: #8e44ad;
+    font-size: inherit;
+    border: 0.12em solid #8e44ad;
+    border-radius: 0 0.5em 0.5em 0;
+    border-left: 0;
+    padding: 0 0.55em;
+    font-weight: bold;
+    cursor: pointer;
+    
+    
+
+}
+
