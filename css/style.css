@@ -89,3 +89,100 @@ body
 
 }
 
+/********************
+    Cards
+*********************/
+.card-container
+{
+    
+    display: flex;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 70px auto;
+    
+}
+
+.card-border
+{
+    padding: 0px 70px;
+}
+
+.card
+{
+    width: 220px;
+    height: 240px;
+    border-radius: 10px;
+    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+   
+}
+
+.card div i 
+{
+    color: #424242;
+    text-align: center;
+   
+}
+
+.card div h1
+{
+    color: #424242;
+    text-align: center;
+     line-height: 40px;
+}
+
+.card div p
+{
+    color: #424242;
+    text-align: center;
+    font-size: 0.8em;
+    margin: 0 5px;
+}
+
+
+.card-heading
+{
+   
+    text-align: center;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+
+.card-footer
+{
+    text-align: center;
+    height: 20%;
+    position: relative;
+    background-color: #8e44ad;
+    border-radius: 1px;
+
+}
+
+.card-footer section
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.3em;
+    color: #fff;
+    
+    
+}
+
+/********************
+    Twitter Feed
+*********************/
+.social-container
+{
+    height: 500px;
+    background-color: #eeeeee;
+}
