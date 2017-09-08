@@ -109,12 +109,18 @@ body
 
 .card
 {
-    width: 220px;
-    height: 240px;
+    width: 260px;
+    height: 260px;
     border-radius: 10px;
     box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all .2s ease-in-out;
     cursor: pointer;
    
+}
+
+.card:hover
+{
+    transform: scale(1.1);
 }
 
 .card div i 
@@ -123,6 +129,10 @@ body
     text-align: center;
    
 }
+
+
+
+
 
 .card div h1
 {
@@ -181,8 +191,168 @@ body
 /********************
     Twitter Feed
 *********************/
+.social
+{
+    background-color: #eeeeee;
+}
+.social-heading
+{
+    color: #424242; 
+    text-align: center;
+  
+}
+
+.social-heading h1
+{
+    padding-top: 50px;
+}
+
 .social-container
 {
-    height: 500px;
-    background-color: #eeeeee;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+    padding: 40px;
+    padding-bottom: 60px;
+   
+}
+
+/********************
+    Contact
+*********************/
+
+.contact
+{
+    background-color: #8e44ad;
+}
+.contact-heading
+{
+    color: #fff; 
+    text-align: center;
+  
+}
+
+.contact-heading h1
+{
+    padding-top: 50px;
+}
+
+.contact-container
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+    padding: 40px;
+   
+}
+
+.form
+{
+    background-color: #424242;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.form div
+{
+    padding: 10px;
+    text-align: center;
+}
+
+
+.form input
+{   width: 500px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.form-comment
+{
+    text-align: center;
+}
+
+.form-comment textarea
+{
+    height: 200px;
+    width: 500px;
+    border-radius: 5px;
+}
+
+/********************
+    Footer
+*********************/
+footer
+{
+    background-color: #424242;
+  
+    
+}
+
+.footer-social
+{
+    
+    display: flex;  
+    padding: 30px;
+    justify-content: center;
+    
+}
+
+.footer-social ul
+{
+    list-style: none;
+    align-self: center;  
+}
+
+.footer-social a
+{
+    padding: 0 50px;
+    color: white;
+    cursor: pointer;
+   
+}
+
+.footer-social a i
+{
+    transition: all .2s ease-in-out;
+}
+
+.footer-social a i:hover
+{
+    color: #8e44ad;
+    cursor: pointer;
+    transform: scale(1.4);
+}
+
+.footer-content
+{
+    background-color: #212121;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.footer-content h1
+{
+    padding: 0 10px;
+    font-size: 1.4em;
+    
+  
+}
+
+.footer-content h1 a
+{
+    color:#fff;
+    text-decoration: none;
+    
+  
+}
+
+.footer-content h1 a:hover
+{
+    color:#8e44ad;
+    cursor: pointer;
+    
+  
 }
