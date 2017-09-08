@@ -132,13 +132,11 @@ body
 
 
 
-
-
 .card div h1
 {
     color: #424242;
     text-align: center;
-     line-height: 40px;
+    line-height: 40px;
 }
 
 .card div p
@@ -355,4 +353,453 @@ footer
     cursor: pointer;
     
   
+}
+
+/********************
+
+    Media Queries
+
+********************/
+
+@media (max-width: 1200px) 
+{
+
+    /********************
+
+        Cards
+
+    ********************/
+    .card-border
+    {
+        padding: 0px 50px;
+    }
+
+    .card
+    {
+        width: 200px;
+        height: 200px;
+        
+    
+    }
+
+    .card div i
+    {
+        font-size: 3em;
+       
+    }
+
+    .card div h1
+    {
+        font-size: 1em;
+       
+    }
+
+    .card div p
+    {
+        color: #424242;
+        text-align: center;
+        font-size: 0.7em;
+        margin: 0 5px;
+    }
+
+
+    
+
+}
+
+
+@media (max-width: 870px) 
+{
+    
+    /********************
+
+            Header
+
+    ********************/
+    .heading
+    {
+        display: flex;
+        margin: 10px;
+        
+    }
+
+    #app
+    {
+        height: 70px;
+        width: 70px;
+    
+    
+    }
+    #showcase h1
+    {
+    
+        font-size: 3em;
+        padding: 10px;
+    }
+
+    .search-box-wrapper
+    {
+        display: inline-flex;
+        font-size: 40px;
+        
+    }
+
+    /********************
+
+            Cards
+
+    ********************/
+
+     .card-border
+    {
+        padding: 0px 30px;
+    }
+
+    .card
+    {
+        width: 150px;
+        height: 150px;
+        
+    
+    }
+
+    .card div i
+    {
+        font-size: 2em;
+       
+    }
+
+    .card div h1
+    {
+        font-size: 0.8em;
+        line-height: 30px;
+    }
+
+    .card div p
+    {
+        color: #424242;
+        text-align: center;
+        font-size: 0.5em;
+        margin: 0 5px;
+    }
+
+    .card-footer
+    {
+        text-align: center;
+        height: 20%;
+        position: relative;
+        background-color: #8e44ad;
+        border-radius: 1px;
+
+    }
+
+    .card-footer section
+    {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;        
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 0.8em;
+        color: #fff;
+        
+        
+    }
+
+
+    /********************
+
+            Footer
+
+    ********************/
+
+    .footer-content h1
+    {
+        padding: 0 10px;
+        font-size: 1em;
+        
+    
+    }
+    
+}
+
+
+@media (max-width: 700px) 
+{
+
+    /********************
+            Header
+    ********************/
+
+    .heading
+    {
+        display: flex;
+        margin: 10px;
+        
+    }
+
+    #app
+    {
+        height: 60px;
+        width: 60px;
+    
+    
+    }
+    #showcase h1
+    {
+    
+        font-size: 3em;
+        padding: 10px;
+    }
+
+    .search-box-wrapper
+    {
+        display: inline-flex;
+        font-size: 30px;
+        
+    }
+
+    /********************
+        Cards
+    ********************/
+    .card-container
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 1000px;
+        margin: 20px 0px;
+        
+    }
+    .card-border
+    {
+        padding: 40px 0px;
+    }
+
+    .card
+    {
+        width: 300px;
+        height: 300px;
+        margin: 0 auto;
+        
+    }
+
+    .card div i
+    {
+        font-size: 4em;
+        line-height: 40px;
+       
+    }
+
+    .card div h1
+    {
+        font-size: 2em;
+        line-height: 70px;
+       
+    }
+
+    .card div p
+    {
+        color: #424242;
+        text-align: center;
+        font-size: 1em;
+        margin: 0 10px;
+    }
+
+    .card-footer section
+    {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;        
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 2em;
+        color: #fff;
+        
+        
+    }
+
+    /********************
+        Contact
+    *********************/
+
+    .contact
+    {
+        background-color: #8e44ad;
+    }
+    .contact-heading
+    {
+        color: #fff; 
+        text-align: center;
+    
+    }
+
+    .contact-heading h1
+    {
+        padding-top: 50px;
+
+    }
+
+    .form
+    {
+        background-color: #424242;
+        border-radius: 5px;
+        padding: 30px;
+        width: 400px;
+    }
+
+    .form input
+    {   width: 370px;
+    
+    }
+
+    .form-comment textarea
+    {
+        height: 200px;
+        width: 370px;
+       
+    }
+
+    /********************
+            Footer
+    ********************/
+
+    .footer-social
+    {
+        
+        display: flex;  
+        padding: 20px;
+        justify-content: center;
+        
+    }
+
+    .footer-social i
+    {
+        font-size: 4em;
+    
+    }
+
+    .footer-content h1
+    {
+        padding: 0 5px;
+        font-size: 0.8em;
+        
+    
+    }
+
+}
+
+@media (max-width: 490px) 
+{
+    /********************
+            Header
+    ********************/
+
+    #app
+    {
+        height: 50px;
+        width: 50px;
+    
+    
+    }
+    #showcase h1
+    {
+        font-size: 2em;
+    }
+
+    .search-box-wrapper
+    {
+        
+        font-size: 22px;
+        
+    }
+
+    /********************
+        Contact
+    *********************/
+
+
+
+    .contact-heading h1
+    {
+        padding: 40px;
+        padding-bottom: 0px;
+
+    }
+
+    .form
+    {
+        background-color: #424242;
+        border-radius: 5px;
+        padding: 20px;
+        width: 250px;
+    }
+
+    .form input
+    {   
+        width: 230px;
+    }
+
+    .form-comment textarea
+    {
+        height: 180px;
+        width: 230px;
+       
+    }
+
+    /********************
+            Footer
+    ********************/
+
+    .footer-social
+    {
+        
+        display: flex;  
+        padding: 20px;
+        justify-content: center;
+        
+    }
+
+    .footer-social a
+    {
+        padding: 0 20px;
+       
+    }
+
+    .footer-social i
+    {
+        font-size: 2.8em;
+    
+    }
+
+    .footer-content h1
+    {
+        padding: 0 5px;
+        font-size: 0.7em;
+        
+    
+    }
+
+}
+
+@media (max-width: 350px) 
+{
+    /********************
+            Header
+    ********************/
+    .search-box-wrapper
+    {
+        font-size: 19px;   
+    }
+
+    /********************
+            Card
+    ********************/
+    .card
+    {
+        width: 280px;
+        height: 280px;
+    }
 }
